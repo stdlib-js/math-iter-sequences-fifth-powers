@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@deno/mod.js';
+import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@v0.2.0-deno/mod.js';
 ```
 
 #### iterFifthPowersSeq( \[options] )
@@ -134,7 +134,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@deno/mod.js';
+import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@v0.2.0-deno/mod.js';
 
 // Create an iterator:
 var opts = {
