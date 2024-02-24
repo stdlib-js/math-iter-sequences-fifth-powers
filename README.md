@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-fifth-powers/tags). For example,
+
+```javascript
 import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@v0.2.1-esm/index.mjs';
 ```
 
@@ -139,7 +144,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@v0.2.1-esm/index.mjs';
+import iterFifthPowersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-fifth-powers@esm/index.mjs';
 
 // Create an iterator:
 var opts = {
